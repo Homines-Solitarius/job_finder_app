@@ -1,0 +1,25 @@
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+
+header {
+    justify-content: space-between;
+    padding: 20px 0;
+    backdrop-filter: blur(2rem);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer
+}
+
+.link {
+    font-size: 20;
+    font-weight: bold;
+    cursor: pointer;
+    padding-inline: 20px;
+}
