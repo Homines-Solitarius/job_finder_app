@@ -8,5 +8,6 @@ const Button = ({ text, color, textColor }) => {
 
 Button.defaultProps = {
   text: "My Button",
+  color: "white"
 }
 export default Button

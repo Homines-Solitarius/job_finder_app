@@ -1,3 +1,5 @@
+@import url("../styles/global.css");
+
 .flex-center {
     display: flex;
     align-items: center;
@@ -6,8 +8,9 @@
 
 header {
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 5%;
     backdrop-filter: blur(2rem);
+    background: var(--blue-color);
 }
 
 .brand {
@@ -17,9 +20,22 @@ header {
     cursor: pointer
 }
 
+.brand-tag {
+    color: var(--white-color);
+}
+
 .link {
     font-size: 20;
     font-weight: bold;
     cursor: pointer;
-    padding-inline: 20px;
+    margin-inline: 8px;
+    padding: 10px 20px;
+    color: var(--white-color);
+    transition: var(--normal-transition);
+    border-radius: 10px;
+}
+
+.link:hover {
+    background: var(--white-color);
+    color: var(--blue-color);
 }

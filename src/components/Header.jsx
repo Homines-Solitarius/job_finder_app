@@ -9,12 +9,12 @@ const Header = () => {
               <a href="#">
                   <FaBookOpen style={{color: "white", background: "blue", padding: "10px", borderRadius: "50%"}} fontSize="50"/>
               </a>
-              <h3>Open Jobs</h3>
+              <h3 className="brand-tag">Open Journal</h3>
           </div>
           <ul className="nav-links flex-center">
               <li className="link">All Blogs</li>
               <li className="link">Featured Blogs</li>
-              <Button text="Join Community" color="blue" textColor="white"/>
+              <Button text="Join Community" color="white" textColor="blue"/>
           </ul>
     </header>
   )
